@@ -22,10 +22,9 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
-
+Biggest pattern was in loops; const can't go there, they need to be redefined to work! Similarly, anywhere there's a counter (eg, 'var += x'), const failed. Basically, const needed conversion back to let anywhere it... wasn't a constant!
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Oh dang, so much simpler and legible! I had to do SO MANY concat's for my 201 project, and I would have thrown my laptop across the room had I known this was an option after doing all those ' + '.
