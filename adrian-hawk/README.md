@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+let is doesn't allow for manipulation outside the block scope. const doesn't allow for reassignment at all.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went fine once I started useing the backtick consistently. I started with it, but habit made me use a single quote at the end. It is easier to use than concat. I'll use it for sure.
